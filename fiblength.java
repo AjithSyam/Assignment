@@ -14,6 +14,8 @@ public class FibSeries {
   num[0] = 0;
 
   num[1] = 1;
+
+  System.out.println("HEYYYYYYYYYYYYY!!!!!!!!");
   
   for (int i = 2; i < FibLength; i++) {
    num[i] = num[i - 1] + num[i - 2];
